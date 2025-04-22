@@ -10,3 +10,7 @@ made a function for tracking the progress by first fetching the video and then c
 
 **mergeIntervals()**
 made a function to check that the overlapping intervals are merged. by checking whether the end of previously watched time interval is greater than the start of the new time interval. if so then merge both the time intervals to create a new time interval array.
+
+**calculateProgress()**
+for looping through the merged intervals by adding the previous time with the new one 
+and then converting it into percentage based on the total watch time
